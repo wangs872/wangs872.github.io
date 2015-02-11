@@ -1,0 +1,29 @@
+
+h1 {
+	text-align: center;
+}
+h1 {
+  	font-family: helvetica neue, gill sans
+}  	
+h1 {
+	background-color: black
+}  	
+h1 {
+	color: white;
+}
+
+h2 {
+    text-align:center;
+	color:#999999;
+	font-family: helvetica, gill sans
+}
+
+ul {
+    text-align: center;
+}
+div {
+    border:1px solid #9a9494;
+    margin:120px;
+    padding: 0px;
+}
+

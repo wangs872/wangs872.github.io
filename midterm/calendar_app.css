@@ -1,0 +1,64 @@
+body{ background-color: #40B9EE;
+}
+
+#header {
+height:25%;
+width:25%;
+padding-left:20%;
+padding-bottom: 2%;
+}
+
+.appinfo { 
+        height: auto;
+        max-width: 858 px;
+        width: 100%;
+        margin:1px;
+}
+.appoverview {
+        background-color: white;
+        width: 60%;
+        margin: auto;
+        padding-top: 20px;
+}
+
+.description {
+    font-family: "HeleveticaNeue-Light", "Helevetica Neue Light", "Helvetica Neue", sans-serif;
+    padding-left: 3%;
+    font-size: 18px;
+    color: #40B9EE;
+    width: 37%;
+    float: left;
+}
+.download {
+    float:right ;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    padding-right: 2%;
+}
+.bulletpoints {
+    float:left;
+    padding-left: 7%;
+    padding-top: 7%;
+    padding-bottom: 8%;
+}
+.iphone6mockup {
+    float: right;
+    padding-right:5%;
+}
+
+.text{
+    font-family: "HeleveticaNeue-Light", "Helevetica Neue Light", "Helvetica Neue", sans-serif;
+    font-size: 18px ;
+    letter-spacing: .1em;
+    color: white;
+}
+
+@media (max-width:460px) {
+    .header, .col4, .col2, .col1, .co3 {
+        width: 98%;
+}
+
+@media (max-width:460px) {
+    body, h1, .appinfo, .appoverview, .description, .dowanload, .bulletpoints, .iphone6mockup, .text{
+        width: 98%;
+}

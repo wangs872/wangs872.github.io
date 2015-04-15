@@ -1,34 +1,25 @@
-window.onload = function () {
-    var link = document.getElementById("word");
-    link.onclick = function () {
-        var v = prompt("type any noun")
-        document.getElementById("words").innerHTML = v ;
-    }
-
-    var link = document.getElementById("word1");
-    link.onclick = function() {
-        var w = prompt("type any noun")
-        document.getElementById("words1").innerHTML = w ;
-    }
-
-    var link = document.getElementById("word2");
-    link.onclick = function() {
-        var x = prompt("type any noun")
-        document.getElementById("words2").innerHTML = x ;
-    }
-
-    var link = document.getElementById("word3");    
-    link.onclick = function() {
-        var y = prompt("type any adjective")
-        document.getElementById("words3").innerHTML = y ;
+$(function(){
+    
+    function submitClick() {
+        var first = $("#word").val();
+        var second = $("#word1").val();
+        var third = $("#word2").val();
+        var fourth = $("#word3").val();
+        var fifth = $("#word4").val();
+        
+        $("#result").fadeIn();
+        $("#wordtxt").html(first);
+        $("#word1txt").html(second);
+        $("#word2txt").html(third);
+        $("#word3txt").html(fourth);
+        $("#word4txt").html(fifth);
+        
+        $("#result").css("background-color", color);
     }
     
-    var link = document.getElementById("word4");
-    link.onclick = function() {
-        var z = prompt("type any adjective")
-        document.getElementById("words4").innerHTML = z ;
-    }
-}
+    $("#result").hide();
+    $("#submit").click(submitClick);
+})
 
 
 

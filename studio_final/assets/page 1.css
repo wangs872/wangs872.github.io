@@ -1,0 +1,598 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#box {
+    float: left;
+    height: 90px;
+    margin-left: 46.473983%;
+    margin-top: 26px;
+    clear: none;
+    width: 90px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-top-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-color: rgb(0, 0, 0);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-color: rgb(0, 0, 0);
+}
+
+#box1 {
+    float: left;
+    height: 60px;
+    margin-left: 0%;
+    margin-top: 40px;
+    clear: both;
+    width: 100%;
+    border-top-color: rgb(244, 244, 244);
+    border-right-color: rgb(244, 244, 244);
+    border-bottom-color: rgb(244, 244, 244);
+    border-left-color: rgb(244, 244, 244);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+
+#text {
+    float: left;
+    font-size: 1em;
+    width: 4.148707%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 29.727909%;
+    margin-top: 1.641908%;
+    clear: none;
+    min-height: 16px;
+    font-family: 'Varela Round';
+    min-width: 0%;
+}
+
+#text1 {
+    float: left;
+    font-size: 1em;
+    width: 8.378233%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 6%;
+    margin-top: 21px;
+    clear: none;
+    min-height: 16px;
+    margin-right: 0%;
+    font-family: 'Varela Round';
+}
+
+#text2 {
+    float: left;
+    font-size: 1em;
+    width: 5.536099%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 6%;
+    margin-top: 21px;
+    clear: none;
+    min-height: 16px;
+    margin-right: 0%;
+    margin-bottom: 0px;
+    font-family: 'Varela Round';
+    color: rgb(96, 96, 96);
+}
+
+#image {
+    float: left;
+    width: 50.00000173000001px;
+    max-width: none;
+    height: 50.00000025999999px;
+    margin-left: 6%;
+    margin-top: 3.328125px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#image1 {
+    float: left;
+    width: 27.37%;
+    max-width: none;
+    height: 12.84%;
+    margin-left: 6.13%;
+    margin-top: 32px;
+    clear: both;
+    color: rgb(0, 0, 0);
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#image2 {
+    float: left;
+    width: 27.37%;
+    max-width: none;
+    height: 12.84%;
+    margin-left: 3%;
+    margin-top: 32px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+#image4 {
+    float: left;
+    width: 27.37%;
+    max-width: none;
+    height: 12.84%;
+    margin-left: 6.13%;
+    margin-top: 47px;
+    clear: both;
+    color: rgb(0, 0, 0);
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#image5 {
+    float: left;
+    width: 27.37%;
+    max-width: none;
+    height: 12.84%;
+    margin-left: 3%;
+    margin-top: 47px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+#image6 {
+    float: left;
+    width: 27.37%;
+    max-width: 28.856201%;
+    height: 12.84%;
+    margin-left: 3.24%;
+    margin-top: 47px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    margin-bottom: 0px;
+}
+
+#image3 {
+    float: left;
+    width: 27.37%;
+    max-width: 100%;
+    height: 10%;
+    margin-left: 3.03%;
+    margin-top: 32px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    margin-bottom: 0px;
+}
+
+#image7 {
+    float: left;
+    width: 27.37%;
+    max-width: 100%;
+    height: 12.84%;
+    margin-left: 6.13%;
+    margin-top: 87px;
+    clear: both;
+    color: rgb(0, 0, 0);
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#image8 {
+    float: left;
+    width: 27.37%;
+    max-width: 100%;
+    height: 12.84%;
+    margin-left: 3%;
+    margin-top: 87px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#image9 {
+    float: left;
+    width: 27.37%;
+    max-width: 100%;
+    height: 12.84%;
+    margin-left: 3.24%;
+    margin-top: 87px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#box6 {
+    float: left;
+    height: 60px;
+    margin-left: 4.88144%;
+    margin-top: 64px;
+    clear: none;
+    width: 60px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-top-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-color: rgb(0, 0, 0);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-color: rgb(0, 0, 0);
+    margin-right: 0%;
+}
+
+#box5 {
+    float: left;
+    height: 60px;
+    margin-left: 3.974609%;
+    margin-top: 62px;
+    clear: none;
+    width: 60px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-top-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-color: rgb(0, 0, 0);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    margin-right: 0%;
+    background-color: rgb(0, 0, 0);
+}
+
+#box4 {
+    float: left;
+    height: 60px;
+    margin-left: 4.394531%;
+    margin-top: 64px;
+    clear: none;
+    width: 60px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-top-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-color: rgb(0, 0, 0);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    margin-right: 0%;
+    background-color: rgb(0, 0, 0);
+}
+
+#box3 {
+    float: left;
+    height: 60px;
+    margin-left: 5.047607%;
+    margin-top: 64px;
+    clear: none;
+    width: 60px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-top-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-color: rgb(0, 0, 0);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    margin-right: 0%;
+    background-color: rgb(0, 0, 0);
+}
+
+#text3 {
+    float: left;
+    font-size: 1.5em;
+    width: 7%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 87%;
+    margin-top: 40px;
+    clear: both;
+    min-height: 24px;
+    margin-right: 0%;
+    margin-bottom: 0px;
+    font-family: 'Varela Round';
+}
+
+#box2 {
+    float: left;
+    height: 60px;
+    clear: both;
+    width: 100%;
+    margin-top: 48px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    margin-left: 0%;
+}
+
+#text:hover {
+    color: rgb(96, 96, 96);
+}
+
+#text1:hover {
+    color: rgb(96, 96, 96);
+}
+
+@media only screen and (max-width: 1280px) {
+    #text {
+        margin-top: 20px;
+        margin-left: 30%;
+        clear: none;
+        height: auto;
+        min-height: 16px;
+        width: 5.343385%;
+    }
+
+    #text1 {
+        margin-top: 20px;
+        margin-left: 5.298552%;
+        clear: none;
+        height: auto;
+        min-height: 16px;
+        width: 11.307784%;
+    }
+
+    #text2 {
+        margin-top: 20px;
+        margin-left: 3.236251%;
+        clear: none;
+        height: auto;
+        min-height: 16px;
+        width: 6.567149%;
+    }
+
+    #image {
+        margin-top: 3.328125px;
+        margin-left: 4.655951%;
+        clear: none;
+    }
+
+    #image1 {
+        float: left;
+        max-width: none;
+        clear: both;
+        color: rgb(0, 0, 0);
+    }
+
+    #box1 {
+        margin-top: 40px;
+        margin-left: 0%;
+        clear: both;
+        border-top-color: rgb(233, 233, 233);
+        border-bottom-color: rgb(233, 233, 233);
+    }
+
+    #image2 {
+        float: left;
+        max-width: none;
+        margin-left: 3%;
+        margin-top: 32px;
+        clear: none;
+        color: rgb(0, 0, 0);
+    }
+
+    #image4 {
+        float: left;
+        max-width: none;
+        clear: both;
+        color: rgb(0, 0, 0);
+    }
+
+    #image5 {
+        float: left;
+        max-width: none;
+        margin-left: 3%;
+        margin-top: 47px;
+        clear: none;
+        color: rgb(0, 0, 0);
+    }
+
+    #image6 {
+        float: left;
+        max-width: 28.856201%;
+        clear: none;
+        color: rgb(0, 0, 0);
+        height: 12.84%;
+        margin-left: 3%;
+    }
+
+    #image3 {
+        float: left;
+        max-width: 100%;
+        clear: none;
+        color: rgb(0, 0, 0);
+        margin-left: 3%;
+    }
+
+    #image7 {
+        float: left;
+        max-width: 100%;
+        clear: both;
+        color: rgb(0, 0, 0);
+        margin-top: 47px;
+    }
+
+    #image8 {
+        float: left;
+        max-width: 100%;
+        clear: none;
+        color: rgb(0, 0, 0);
+        margin-top: 47px;
+    }
+
+    #image9 {
+        float: left;
+        max-width: 100%;
+        clear: none;
+        color: rgb(0, 0, 0);
+        margin-left: 3%;
+        margin-top: 47px;
+    }
+
+    #box6 {
+        margin-top: 0%;
+        margin-right: 0%;
+        margin-bottom: 40px;
+        margin-left: 4%;
+        clear: none;
+        width: 60px;
+        height: 60px;
+        padding-top: 0px;
+    }
+
+    #box5 {
+        margin-top: 0%;
+        margin-right: 0%;
+        margin-bottom: 40px;
+        margin-left: 4%;
+        clear: none;
+        width: 60px;
+        height: 60px;
+        padding-top: 0px;
+    }
+
+    #box4 {
+        margin-top: 0%;
+        margin-right: 0%;
+        margin-bottom: 40px;
+        margin-left: 4%;
+        clear: none;
+        width: 60px;
+        height: 60px;
+        padding-top: 0px;
+    }
+
+    #box3 {
+        margin-top: 0%;
+        margin-right: 0%;
+        margin-bottom: 40px;
+        margin-left: 34.638672%;
+        clear: none;
+        width: 60px;
+        height: 60px;
+        padding-top: 0px;
+    }
+
+    #text3 {
+        margin-top: 40px;
+        margin-left: 86.99912%;
+        clear: both;
+        height: auto;
+        min-height: 24px;
+        margin-right: 0%;
+        font-size: 1.5em;
+    }
+
+    #box {
+        margin-top: 30px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 46.47%;
+    }
+
+    #box2 {
+        float: left;
+        height: 60px;
+        clear: both;
+        width: 100%;
+        margin-top: 48px;
+        margin-right: 0px;
+        margin-bottom: 40px;
+        margin-left: 0%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #text1 {
+        margin-left: 7%;
+        height: auto;
+        min-height: 16px;
+        width: 13.871793%;
+        margin-top: 20px;
+        clear: none;
+    }
+
+    #text2 {
+        margin-top: 20px;
+        margin-left: 7%;
+        clear: none;
+        height: auto;
+        min-height: 16px;
+        width: 8.96758%;
+    }
+
+    #image {
+        margin-top: 3.328125px;
+        margin-left: 6%;
+        clear: none;
+    }
+
+    #text {
+        height: auto;
+        min-height: 16px;
+        width: 7.248747%;
+        margin-left: 22.5%;
+    }
+}
+

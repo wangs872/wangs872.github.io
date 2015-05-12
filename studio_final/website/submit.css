@@ -1,9 +1,9 @@
 body {
   font-family:"Source Sans Pro";
   min-width: 406px;
-margin: 0px;
-
+  margin: 0 auto;
 }
+
 header{
 text-align: center;
 padding:40px 0;
@@ -273,9 +273,14 @@ a. .dropdown {
   transition-delay: 1s;
 }
 
+@media screen and (max-width: 600px) {
+    article, .content, #tags {
+        width:400px;
+    }
+}
 article {
   margin: 0 auto;
-  width: 500px;
+  width: 465px;
   padding-top: 70px;
   padding-right: 10px;
   padding-bottom: 20px;
@@ -284,8 +289,7 @@ article {
 }
 
 .content{
-float: left;
-  width: 100%;
+  float: left;
   padding-right: 20px;
   padding-left: 20px;
   margin-top: 20px;
@@ -302,6 +306,7 @@ margin-top: 20px;
 padding-top: 20px;
 text-align: left;
 }
+
 .inputform input[type="text"] {
   font-size: 14px;
   padding: 5px;
@@ -309,6 +314,7 @@ text-align: left;
   border-bottom: solid 1px #c9c9c9;
   transition: border 0.3s;
 }
+
 .inputform input[type="text"]:focus,
 .inputforminput[type="text"].focus {
   border-bottom: solid 2px #969696;
@@ -316,19 +322,18 @@ text-align: left;
 
 #tags {
 margin: 0 auto;
-padding-left: 40px;
-width: 500px;
+width: 400px;
 }
 
 #tags .title{
-float:left;
-margin-right: 10px;
+padding-left: 20px;
+text-align:left;
 }
 
 #tags ul {
 list-style: none;
 margin: 0;
-padding: 0;
+padding: 20px;
 }
 
 #tags li {
@@ -342,7 +347,6 @@ vertical-align: middle;
 color: #444;
 font-size:14px;
 box-sizing: border-box;
-	
 }
 
 

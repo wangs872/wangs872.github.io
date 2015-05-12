@@ -22,3 +22,17 @@ $(document).ready(function() {
 		return false;
 	});
 });
+
+$('document').ready(function(){
+  
+    $('.mobile').click(function(){
+      
+      $('.sidecontent').slideToggle('slow');
+    });
+  
+  $('.close').click(function(){
+      $('.sidecontent').slideToggle();
+    });
+  
+});
+

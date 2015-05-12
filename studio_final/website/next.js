@@ -8,3 +8,16 @@
          $(".pop").fadeOut(300);
      });
  });
+
+$('document').ready(function(){
+  
+    $('.mobile').click(function(){
+      
+      $('.sidecontent').slideToggle('slow');
+    });
+  
+  $('.close').click(function(){
+      $('.sidecontent').slideToggle();
+    });
+  
+});

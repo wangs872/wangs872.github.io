@@ -7,18 +7,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="submit.css">
+        <link rel="stylesheet" href="subscribe.css">
         <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-        <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-		<script src='submit.js'></script>
-		<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-      
+         <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src='subscribe.js'></script>
     </head>
     
     <body>
-     
-   	<div class="sidebar">
+		<div class="sidebar">
 			<img class="mobile" src="open-01.png" alt="sidebar"  />
 				<div class="sidecontent">
 					<div class="close"> 
@@ -67,74 +65,35 @@
 			</div>
 	</nav>
 <div class="clear"></div>
-
 		
-	<article>
-		<div class="content">
-			<h2>Submit Inspiration</h2>
-					<p>Anyone can submit images, however in order for them to be selected and posted on INSPIRE, the images have to have:
-					<br>
-					<br>
-					- Title
-					<br>
-					- Artist/Designer’s Name
-					<br>
-					- Your Email Address
-					<br>
-					<br>
-						Thanks for sharing your inspiration and spread this link to all your friends.</p>
-		<div class="inputform">
-		 <input type="text" name="artist" placeholder="Artist/Designer">
-            <br>
-			<br>
-            
-          
-            <input type="text" name="title" placeholder="Title">
-            <br>
-			<br>
-            
-           
-            <input type="text" name="emailaddress" placeholder="Your Email Address">
-            <br>
 
-		</div>
-		</div>
-	</article>
-		<div id="tags"><span class="title">Tags:</span>
-		<ul>
-			<li><input type="checkbox">architecture</li>
-			<li><input type="checkbox">typography</li>			 
-			<li><input type="checkbox">illustration</li>
-			<li><input type="checkbox">Branding</li>
-			<li><input type="checkbox">photography</li>
-			<li><input type="checkbox">daily inspiration</li>
-			<li><input type="checkbox">others</li>
-			
-		</ul>
-	</div>
-			<div class="file-upload">
-			  <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Add Image</button>
-			
-				<div class="image-upload-wrap">
-					<input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
-				<div class="drag-text">
-				  <h3>Drag and drop a file or select add Image</h3>
-				</div>
-				</div>
-			 
-			<div class="file-upload-content">
-				<img class="file-upload-image" src="#" alt="your image" />
-				<div class="image-title-wrap">
-					  <button class="reg" type="button"  >Submit</button>
-					  <div class="pop">
-						   <span>✖</span>
-		<img class="pop_submit" src="images/popup_submit.jpg"/>
-				</div>
-					<button onclick="removeUpload()" class="remove-image">Remove</button>
-			</div>
-			</div>
-		</div>
-		<div class=".clear"></div>
+		  <article>
+		  <div class="content">
+			  <h2>Subscribe</h2>
+			<div class="form">
+				
+					<input type="text" id="name"  placeholder="Name">
+						<br>
+						<br>
+
+						<input type="text" id="email"  placeholder="Email address">
+						<br>
+						<br>
+
+						<input type="radio" id="daily"  value="Daily" checked>Daily Updates
+						<br>
+						<br>
+						<input type="radio" id="weekly"  value="Weekly">Weekly Updates
+						<br>
+						<br>
+						<input type="radio" id="monthly" value="Monthly">Monthly Updates
+		<br>
+		<br>
+					<input id="subscribe" type="button" value="Subscribe">
+			  </div>
+			  </div>
+		  </article>
+
 		<footer>
 		<div class="footer_wrapper">
 				<div class="footer_proper">
@@ -148,7 +107,7 @@
 					</p>
 					</div>
 					<div class="footer_social_links">
-						<a href="subscribe.html"><img src="social_icon/ico_rss.png" width="32"></a>
+						<img src="social_icon/ico_rss.png" width="32">
 						<img src="social_icon/ico_g.png" width="32">
 						<img src="social_icon/ico_fb.png" width="32">
 						<img src="social_icon/ico_tw.png" width="32">
@@ -156,7 +115,6 @@
 				</div>
 				</div>
 		</footer>
-
-				
     </body>
+
 </html>

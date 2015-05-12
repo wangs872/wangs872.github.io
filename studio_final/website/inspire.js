@@ -9,14 +9,15 @@
      });
  });
 
-$(".open-panel").click(function(){
+$('document').ready(function(){
   
-  $("html").addClass("openNav");
+    $('.mobile').click(function(){
+      
+      $('.sidecontent').slideToggle('slow');
+    });
   
-});
-	
-$(".close-panel, #content").click(function(){
-  
-$("html").removeClass("openNav");
+  $('.close').click(function(){
+      $('.sidecontent').slideToggle();
+    });
   
 });
